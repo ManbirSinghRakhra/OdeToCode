@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode/OdeToCode.csproj",
+    "projectName": "OdeToCode",
+    "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode/OdeToCode.csproj",
+    "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj": {
+            "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "target": "Package",
+          "version": "[3.1.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+    }
+  }
+}

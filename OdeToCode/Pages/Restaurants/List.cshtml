@@ -1,0 +1,24 @@
+﻿@page
+@using OIdToCode.Core
+@model OdeToCode.Pages.Restaurants.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Restaurants</h1>
+
+<table class="table">
+    @foreach (var rest in Model.Restaurants)
+    {
+        <tr>
+            <td>@rest.Name</td>
+            <td>@rest.Location</td>
+            <td>@rest.Cuisine</td>
+        </tr>
+    }
+</table>
+
+
+
+<div>@Model.Message</div>
+

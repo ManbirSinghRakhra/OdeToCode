@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OdeToCode.Data/1.0.0": {
+        "dependencies": {
+          "OIdToCode.Core": "1.0.0"
+        },
+        "runtime": {
+          "OdeToCode.Data.dll": {}
+        }
+      },
+      "OIdToCode.Core/1.0.0": {
+        "runtime": {
+          "OIdToCode.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OdeToCode.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OIdToCode.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

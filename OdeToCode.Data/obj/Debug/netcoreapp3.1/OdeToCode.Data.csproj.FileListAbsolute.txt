@@ -1,0 +1,12 @@
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/Debug/netcoreapp3.1/OdeToCode.Data.csprojAssemblyReference.cache
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/Debug/netcoreapp3.1/OdeToCode.Data.csproj.CoreCompileInputs.cache
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/Debug/netcoreapp3.1/OdeToCode.Data.AssemblyInfoInputs.cache
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/Debug/netcoreapp3.1/OdeToCode.Data.AssemblyInfo.cs
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/bin/Debug/netcoreapp3.1/OdeToCode.Data.deps.json
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/bin/Debug/netcoreapp3.1/OdeToCode.Data.dll
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/bin/Debug/netcoreapp3.1/OdeToCode.Data.pdb
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/bin/Debug/netcoreapp3.1/OIdToCode.Core.dll
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/bin/Debug/netcoreapp3.1/OIdToCode.Core.pdb
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/Debug/netcoreapp3.1/OdeToCode.Data.csproj.CopyComplete
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/Debug/netcoreapp3.1/OdeToCode.Data.dll
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/Debug/netcoreapp3.1/OdeToCode.Data.pdb
