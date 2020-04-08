@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj",
-    "projectName": "OIdToCode.Core",
-    "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj",
-    "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/obj/",
+    "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj",
+    "projectName": "OdeToCode.Core",
+    "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj",
+    "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

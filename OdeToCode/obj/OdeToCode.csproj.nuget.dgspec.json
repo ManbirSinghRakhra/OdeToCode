@@ -4,6 +4,59 @@
     "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode/OdeToCode.csproj": {}
   },
   "projects": {
+    "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj",
+        "projectName": "OdeToCode.Core",
+        "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj",
+        "packagesPath": "/Users/manbirrakhra/.nuget/packages/",
+        "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/manbirrakhra/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,8 +81,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj": {
-                "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj"
+              "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj": {
+                "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj"
               }
             }
           }
@@ -119,59 +172,6 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj",
-        "projectName": "OIdToCode.Core",
-        "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj",
-        "packagesPath": "/Users/manbirrakhra/.nuget/packages/",
-        "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/manbirrakhra/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
