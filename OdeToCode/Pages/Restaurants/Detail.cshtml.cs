@@ -9,6 +9,9 @@ namespace OdeToCode.Pages.Restaurants
     {
         private readonly IRestaurantData _restaurantData;
         public Restaurant Restaurant { get; set; }
+        
+        [TempData]
+        public string Message { get; set; }
 
         public Detail(IRestaurantData restaurantData)
         {

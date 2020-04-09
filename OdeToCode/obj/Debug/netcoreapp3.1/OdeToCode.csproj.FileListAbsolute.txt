@@ -225,3 +225,4 @@ Z:/Projects/AspNetCourse/OdeToCode/OdeToCode/obj/Debug/netcoreapp3.1/Razor/Pages
 /Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode/bin/Debug/netcoreapp3.1/OdeToCode.Core.pdb
 /Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/Detail.cshtml.g.cs
 /Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/NotFound.cshtml.g.cs
+/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/Edit.cshtml.g.cs
