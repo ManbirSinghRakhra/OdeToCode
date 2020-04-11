@@ -4,14 +4,14 @@
     "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj": {}
   },
   "projects": {
-    "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj": {
+    "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj",
-        "projectName": "OdeToCode.Data",
-        "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj",
+        "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj",
+        "projectName": "OdeToCode.Core",
+        "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj",
         "packagesPath": "/Users/manbirrakhra/.nuget/packages/",
-        "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/",
+        "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -27,11 +27,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj": {
-                "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -61,14 +57,14 @@
         }
       }
     },
-    "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj": {
+    "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj",
-        "projectName": "OIdToCode.Core",
-        "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/OIdToCode.Core.csproj",
+        "projectUniqueName": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj",
+        "projectName": "OdeToCode.Data",
+        "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/OdeToCode.Data.csproj",
         "packagesPath": "/Users/manbirrakhra/.nuget/packages/",
-        "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OIdToCode.Core/obj/",
+        "outputPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Data/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -84,7 +80,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj": {
+                "projectPath": "/Users/manbirrakhra/Projects/AspNetCourse/OdeToCode/OdeToCode.Core/OdeToCode.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -95,6 +95,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
