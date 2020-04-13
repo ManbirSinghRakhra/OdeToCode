@@ -46,6 +46,8 @@ namespace OdeToCode.Data
             return restaurant;
         }
 
+        public int GetCountofRestaurants() => _dbContext.Restaurants.Count();
+
         public int Commit() => _dbContext.SaveChanges();
     }
 }
